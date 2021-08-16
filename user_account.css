@@ -1,0 +1,147 @@
+header{
+	background-color: royalblue;
+	top: 0;
+}
+
+
+.heading{
+	font-size: 30px;
+	font-variant:small-caps;
+	color: greenyellow;
+	padding: 12px 0 0 0 ;
+}
+
+
+.icon{
+	text-align: right;
+}
+
+
+.home-icon{
+	background-color:royalblue;
+	color: greenyellow;
+	padding:18px 12px;
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+
+.home-icon:hover{
+	background-color: skyblue;
+}
+
+
+.bar-icon {
+	background-color: rgba(0, 0, 0, 0.200);
+	color: royalblue;
+	padding:18px 12px;
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+
+.bar-icon:hover{
+	background-color: skyblue;
+}
+
+
+a{
+	text-decoration:none;
+	color: royalblue;
+}
+
+
+a:hover{
+	text-decoration:none;
+	color: royalblue;
+}
+
+
+.dropdown {
+	position: relative;
+	display: inline;
+	text-align: left;
+}
+
+
+.bar-content {
+	display: none;
+	position: absolute;
+	background-color:  gainsboro;
+	min-width: 400%;
+	z-index: 1;
+}
+
+
+.bar-content a {
+	color: royalblue;
+	font-size:20px;
+	padding: 10% 3%;
+	display: block;
+}
+
+
+.bar-content a:hover {
+	background-color: skyblue;
+}
+
+
+.dropdown:hover .bar-content {
+	display: block;
+}
+
+
+h1{
+    margin: 10% auto 1px;
+    text-align: center;
+}
+
+
+.form{
+    border-radius: 5%;
+    width: 350px;
+    height: auto;
+    border:3px solid royalblue;
+    margin: 10px auto;
+    background-color: skyblue;
+    color:royalblue;
+    margin-bottom:25px;
+    padding: 10px;
+    font-size: 110%;
+}
+
+
+.form label{
+    font-weight: 800;
+}
+
+
+.form span{
+    font-weight: 800;
+}
+
+
+.form a{
+    font-weight:800;
+}
+
+
+input, button{
+    font-size: medium;
+    border: 2px solid royalblue;
+}
+
+
+footer{
+    margin: 18% 0px -10px 0px;
+}
+
+
+footer p{
+    background-color: royalblue;
+    color: greenyellow;
+    text-align: center;
+    font-size: 150%;
+}
